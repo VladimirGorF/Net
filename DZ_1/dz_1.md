@@ -6,7 +6,8 @@
 <img width="2048" alt="Снимок экрана 2023-05-26 в 18 54 53" src="https://github.com/VladimirGorF/Net/assets/110591063/f4c5e6af-1232-4f38-a506-a77adbaa8924">
 
 
-
-
 Сдать один скриншот успешного пинга с РС 192.168.0.2 на интерфейс сервера Fa1 192.168.0.1
+<img width="2048" alt="Снимок экрана 2023-05-26 в 18 59 23" src="https://github.com/VladimirGorF/Net/assets/110591063/a7690da0-036f-4843-bfe5-daace0924ef5">
+
+
 
