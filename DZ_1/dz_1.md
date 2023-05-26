@@ -1,6 +1,9 @@
 Починить сеть из файла (https://disk.yandex.ru/d/pxY6JoEJ8AHhew ), чтобы все линки были зеленые. Попинговать компьютеры. 
 Сдать два скриншота успешного пинга с РС 10.0.0.1 на интерфейс сервера Fa0 10.0.0.5 и на PC 10.0.0.3.
 
+<img width="2048" alt="Снимок экрана 2023-05-26 в 18 37 33" src="https://github.com/VladimirGorF/Net/assets/110591063/c1cdd8a4-06fd-4bb6-890e-abee1afc4fb2">
+
+<img width="2048" alt="Снимок экрана 2023-05-26 в 18 35 15" src="https://github.com/VladimirGorF/Net/assets/110591063/cf95b5d7-65bb-4860-9223-e1a7b619bd53">
 
 
 
