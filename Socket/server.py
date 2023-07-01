@@ -4,7 +4,7 @@ import threading
 
 # Connection Data
 host = '192.168.88.175'
-port = 33333
+port = 11111
 
 # Starting Server
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -19,7 +19,8 @@ nicknames = []
 def broadcast(message):
     for client in clients:
         client.send(message)
-        print(message)
+        # !!!!!!!декодировал распечатку 
+        print(message.decode())  
 
 # Handling Messages From Clients
 def handle(client):
