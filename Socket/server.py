@@ -3,8 +3,8 @@ import socket
 import threading
 
 # Connection Data
-host = '192.168.88.175'
-port = 11111
+host = '192.168.88.150'
+port = 22223
 
 # Starting Server
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

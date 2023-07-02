@@ -1,15 +1,12 @@
 import socket
 import threading
-import gui_module
 
 # Choosing Nickname
-nickname = gui_module.enter_name()
-if (nickname == None):
-     gui_module.no_name()
+nickname = input("Choose your nickname: ")
 
 # Connecting To Server
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('192.168.88.175', 33333))
+client.connect(('192.168.88.150', 22223))
 
 # Listening to Server and Sending Nickname
 def receive():
@@ -21,7 +18,7 @@ def receive():
             if message == 'NICK':
                 client.send(nickname.encode('UTF-8'))
             else:
-                gui_module.mess(message)
+                print(message)
         except:
             # Close Connection When Error
             print("An error occured!")
